@@ -27,6 +27,10 @@ Route::get('prueba4/{edad?}', function($edad = 21){
     return "Mi edad es: ".$edad;
 });
 
+Route::get('controlador','PruebaController@index');
+
+Route::get('controlador2/{nombre}','PruebaController@nombre');
+
 Route::get('/', function () {
     return view('welcome');
 });
