@@ -12,8 +12,8 @@
 */
 
 Route::get('/','FrontController@index');
-Route::get('/','FrontController@contacto');
-Route::get('/','FrontController@review');
+Route::get('contacto','FrontController@contacto');
+Route::get('review','FrontController@review');
 
 
 
