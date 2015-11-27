@@ -28,6 +28,9 @@ class FrontController extends Controller
         return view('review');
     }
 
+    public function admin(){
+        return view('admin/index');
+    }
     /**
      * Show the form for creating a new resource.
      *
